@@ -1,0 +1,28 @@
+.list{
+    width: 1000px;
+    background:#fff;
+    margin-top: 50px;
+
+   .item{
+       
+            
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            padding: 20px 20px;
+            border-bottom: 1px solid lightgrey;
+            span{
+                font-size: 18px;
+            }
+
+            .icon{
+                
+                color: red;
+                cursor: pointer;
+            }
+        }
+   
+   
+}
